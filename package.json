@@ -1,0 +1,22 @@
+{
+  "name": "ui-generator-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bundle.js",
+  "dependencies": {
+    "jsx-transform": "^2.4.0",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "webpack": "^4.26.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.2.1"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [
+    "jsx"
+  ],
+  "author": "Jonas Karg",
+  "license": "MIT"
+}
