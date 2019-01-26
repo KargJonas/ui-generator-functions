@@ -1,6 +1,5 @@
 # Generator functions for UI
-
-### This is a demonstration for using JS generator functions as UI components:
+## This is a demonstration for using JS generator functions as UI components:
 ### Here is what I mean (the example uses a jsx and a react-like-api):
 
 ```jsx
@@ -24,3 +23,5 @@ render(Comp, "#root");
 
 ### What is the purpose of this?
 This could be an alternative to the react-hooks syntax for using "state" in function-components. (Yes - the code above works, you can try it yourself in `test/index.js`, `test/bundle.js` contains a complete jsx-to-js transpiler and a ui-library).
+
+### No-this does not necessarily have anything to do with React.
