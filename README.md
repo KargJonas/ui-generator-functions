@@ -5,14 +5,14 @@
 ```jsx
 // The * indicates a generator function
 function* Comp() {
-  this.state = {
+  const state = {
     name: "Jonas"
   };
 
   while (true) {
     yield (
       <div>
-        <h1>{this.state.name}</h1>
+        <h1>{state.name}</h1>
       </div>
     );
   }

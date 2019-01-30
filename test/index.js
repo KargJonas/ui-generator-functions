@@ -1,16 +1,17 @@
 function* Comp() {
-  this.state = {
-    name: "Jonas"
+  const state = {
+    name: "Jonas",
+    count: 0
   };
 
   while (true) {
     yield (
       <div>
-        <h1>{this.state.name}</h1>
+        <h1>{state.name}</h1>
       </div>
     );
   }
 }
 
 render(Comp, "#root");
-
+render(Comp, "#root");
