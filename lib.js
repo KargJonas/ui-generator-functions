@@ -37,7 +37,7 @@ function handleContent(element, item) {
   }
 }
 
-export function el() {
+function el() {
   const content = Array.from(arguments);
   const tag = content.shift();
   const attrs = content.shift();
@@ -62,11 +62,11 @@ Function.prototype.mount = function () {
   this.__mounted = true;
 };
 
-export function render(el, container) {
+function render(el, container) {
   root.innerHTML = "";
 
   handleContent(
     document.querySelector(container),
     el
   );
-}
+};
