@@ -1,9 +1,15 @@
-function* App() {
+function* Comp() {
   const state = {
     name: "Jonas"
   };
 
-  return <h1>Hello, {state.name}</h1>;
+  while (true) {
+    yield (
+      <div>
+        <h1>Hello, {state.name}</h1>
+      </div>
+    );
+  }
 }
 
-render(App, "#root");
+render(Comp, "#root");

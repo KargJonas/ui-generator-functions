@@ -22,6 +22,6 @@ render(Comp, "#root");
 ```
 
 ### What is the purpose of this?
-This could be an alternative to the react-hooks syntax for using "state" in function-components. (Yes - the code above works, you can try it yourself in `test/index.js`, `test/bundle.js` contains a complete jsx-to-js transpiler and a ui-library).
+This could be an alternative to the react-hooks syntax for using "state" in function-components. (Yes - the code above works, you can try it yourself in `index.js`, `live-jsx.js` contains a complete jsx-to-js transpiler and `lib.js` contains a library for generating html elements).
 
 ### This does not necessarily have anything to do with React.
